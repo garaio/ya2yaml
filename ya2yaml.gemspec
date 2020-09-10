@@ -2,12 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ya2yaml}
-  s.version = "0.32"
+  s.version = "0.33"
 
   s.required_rubygems_version = nil if s.respond_to? :required_rubygems_version=
   s.authors = ["Akira FUNAI"]
-  s.cert_chain = nil
-  s.date = %q{2017-06-13}
+  s.date = %q{2020-09-10}
   s.email = %q{akira@funai.com}
   s.extra_rdoc_files = ["README.rdoc"]
   s.files = ["lib/ya2yaml.rb", "README.rdoc", "LICENSE", "test/t.gif", "test/t.yaml", "test/test.rb"]
@@ -18,9 +17,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version = Gem::Requirement.new("> 0.0.0")
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{An UTF8 safe YAML dumper.}
-  s.description = <<'_eos'
-Ya2YAML is "yet another to_yaml". It emits YAML document with complete UTF8 support (string/binary detection, "\u" escape sequences and Unicode specific line breaks).
-_eos
+  s.description = %q{Ya2YAML is "yet another to_yaml". It emits YAML document with complete UTF8 support (string/binary detection, "\u" escape sequences and Unicode specific line breaks).}
+
   s.test_files = ["test/test.rb"]
 
   if s.respond_to? :specification_version then
